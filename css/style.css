@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 16px;
+ }
+ ::-webkit-scrollbar-track {
+    background: white;
+ }
+ ::-webkit-scrollbar-thumb {
+    background: rgb(226, 183, 11);
+ }
+ ::-webkit-scrollbar-button:start:decrement,
+ ::-webkit-scrollbar-button:end:increment {
+    background: black;
+ }
+body{
+    background-image: url("../img/w22-01.jpg");  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{    
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+/* logo */
+#logo-g{
+    margin-left: 100px;    
+    float: left;
+}
+#logo{
+    height: 80px;
+    width: auto;
+    margin-top: 22px;
+}
+#menu{
+    margin-right: 130px;    
+    margin-top: 60px;
+    float: right;
+}
+.menu{
+    transition: background 0.5s; color: 1s;    
+    padding: 6px;
+    border-radius: 10px;
+}
+.menu:hover{
+    background: rgb(226, 183, 11);
+    color: white;
+}
+.terpilih{
+    border: 1px solid #F9C90D;
+    background: rgb(226, 183, 11);
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+}
+#teks{
+    position: relative;
+    top: 200px;    
+    margin-left: 100px;
+    clear: both;
+    line-height: 45px;
+}
+#h1t{
+    font-size: 53px;
+    color: white;
+    width: 80%;
+    font-family: sans-serif;
+}
+#h3t{
+    font-weight: 100;
+    font-family: sans-serif;
+    width: 80%;
+    font-size: 30px;
+    color: #F9C90D;
+}
+#pt{    
+    font-family: sans-serif;
+    font-size: 24px;
+    color: white;
+    width: 80%;
+    line-height: 25px;
+}
+.container{
+    position: absolute;
+    top: 100%;
+    height: 120px;
+    width: 100%;
+    /* background-color: rgb(129, 124, 124); */
+    background: rgb(110, 163, 36);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+@media (min-width: 375px) {
+    #container {
+      width: 100%;
+      margin-left: auto;
+    }
+  }
+#titlew{
+    text-align: center;
+}
+#tit1{
+    font-size: 40px;
+    color: white;
+    font-family: sans-serif;
+}
+#tit2{
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #F9C90D;
+}
+
+#menu-ekstrakurikuler{
+    margin-top: 5px;
+    margin-left: 310px;
+}
+@media (min-width: 372px) {
+    #menu-ekstrakurikuler {
+      width: 100%;
+      margin-left: auto;
+    }
+  }
+
+#clubit{
+    border: 1px solid white;
+    font-size: 30px;
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    transition: background-color 0.5s;
+}
+#clubit:hover{
+    background-color: white;;
+    color: rgb(129, 124, 124);
+}
+h6{
+    border: 1px solid white;
+}
+#kegiatanosis{
+    position: absolute;
+    top: 820px;
+    height: 420px;
+    width: 100%;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    z-index: -2;
+}
+#poster{
+    font-size: 30px;
+    color: black;
+    font-family: sans-serif;
+}
+#berikut{
+    font-weight: 100;
+    font-family: sans-serif;
+    font-size: 24px;    
+}
+span{
+    color: #F9C90D;
+}
+img{
+    /* width: 300px;
+    height: auto; */
+    height: 345px;
+    width: auto;
+    padding-left: 5px;
+}
+#gambarkegiatan{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#copyright{
+    position: absolute;
+    top: 1300px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(29, 28, 28);
+}
+#copy{
+    font-size: 16px;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+}
